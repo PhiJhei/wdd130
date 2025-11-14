@@ -1,5 +1,11 @@
+:root{
+    --nav-background-color: #333;
+    --default-font: Arial, sans-serif;
+    --default-color: white;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-background-color);
     padding: 10px;
 }
 
