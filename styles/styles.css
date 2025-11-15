@@ -1,7 +1,15 @@
 :root{
-    --nav-background-color: #333;
-    --default-font: Arial, sans-serif;
-    --default-color: white;
+    --nav-background-color: darkblue;
+    --defautl-bg-color: #333;
+    --font-size: medium;
+    --font: Arial, sans-serif;
+    --color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -29,7 +37,9 @@ h1{
     color: darkblue;
 }
 
-main img{
+
+#profile{
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -39,17 +49,19 @@ main img{
 
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0/.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
 aside img{
     width: 200px;
     height: auto;
+}
+
+aside h2{
+    position: relative;
+    top: 40px;
+    left: 20px;
+
 }
 
 p{
@@ -60,4 +72,14 @@ footer{
     margin-top: 10px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0/.1);
+    background-color: var(--defautl-bg-color);
+    color: #333;
 }
