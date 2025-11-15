@@ -1,6 +1,6 @@
 :root {
     /* Color palette */
-    --color-primary: #053d7a;
+    --color-primary: #0d1e4e;
     --color-accent: #fff;
     --color-text: #fff;
     --color-background: #fff;
@@ -43,11 +43,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-    width: 30px;
-}
-
 .hero {
     position: relative;
 }
@@ -58,12 +53,25 @@ nav, p, section, article {
     height: auto;
 }
 
+.hero article p{
+    text-align: justify;
+}
+
 .hero article img {
+    border: 1px solid black;
     float: right;
     width: 125px;
     position: absolute;
     top: 125px;
     left: 50px;
+}
+
+article p {
+    opacity: 0.8;
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+    position: absolute;
+    bottom: 50px;
 }
 
 .hero h1 {
@@ -83,15 +91,15 @@ h2 {
     width: 100%;
 }
 
-article p {
-    opacity: 0.8;
-    background-color: var(--color-primary);
-    color: var(--color-accent);
-    position: absolute;
-    bottom: 50px;
-}
-
 footer {
     border-top: 1px solid black;
     margin-top: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+footer .socialmedia img{
+    width: 30px;
 }
