@@ -1,48 +1,49 @@
-:root{
+:root {
     /* Color palette */
     --color-primary: #053d7a;
     --color-accent: #fff;
     --color-text: #fff;
     --color-background: #fff;
+
     /* Fonts */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-*{
-    background-color: #fff;
+* {
+    background-color: var(--color-background);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: var(--color-background);
     color: var(--color-text);
 }
 
-body{
+body {
     font-family: var(--body-font);
     color: var(--color-text);
 }
 
-header, main, footer{
+header, main, footer {
     width: 840px;
     margin: auto;
 }
 
-h1, h2{
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--color-primary);
     text-align: center;
 }
 
-nav,p,section,article{
+nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
-.socials img{
+.socialmedia a {
     text-decoration: none;
     width: 30px;
 }
@@ -51,42 +52,46 @@ nav,p,section,article{
     position: relative;
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero article img{
+.hero article img {
     float: right;
     width: 125px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
 }
 
-h1{
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: .7;
+    opacity: 0.7;
     background-color: var(--color-primary);
-    color: var(--color-accent);
+    color: var(--color-text);
 }
 
-h2{
+h2 {
     background-color: var(--color-primary);
-    color: var(--color-accent);
+    color: var(--color-text);
+    width: 100%;
 }
 
-article p{
-    opacity: .8;
+article p {
+    opacity: 0.8;
     background-color: var(--color-primary);
     color: var(--color-accent);
     position: absolute;
     bottom: 50px;
 }
 
-footer{
+footer {
     border-top: 1px solid black;
     margin-top: 10px;
 }
