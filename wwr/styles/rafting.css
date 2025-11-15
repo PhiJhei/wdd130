@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #002bbae6;
-    /* --secondary-color: #3b82f6; */
-    --accent1-color: #b97500;
-    --accent2-color: #ac00b2;
+    --primary-color: #1e40af;
+    --secondary-color: #fbbf24;
+    --accent1-color: #f3f4f6;
+    --accent2-color: #dc2626;
     --heading-font: "Times New Roman","Georgia",serif;
     --body-font: Arial,Helvetica,sans-serif;
 }
@@ -80,6 +80,7 @@ h1{
 }
 
 footer img{
+    color: var(--secondary-color);
     border-top: 1px block black;
     width: 30px;
 }
