@@ -21,6 +21,7 @@ body{
 }
 
 header{
+    font-family: var(--heading-font);
     border: 1px solid black;
     color: var(--primary-color);
     display: flex;
@@ -78,6 +79,7 @@ main section{
 .hero img{
     display: block;
     width: 100%;
+    top: 30px;
     height: auto;
 }
 
@@ -88,6 +90,7 @@ main section{
 
 .hero article img{
     position: absolute;
+    float: right;
     right: 0px;
     width: 80px;
 }
