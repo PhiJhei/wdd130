@@ -96,7 +96,6 @@ footer{
 }
 
 header, footer, .grid{
-    background-color: ;
     max-width: 840px;
     margin: 0 auto;
 }
