@@ -67,7 +67,7 @@ main .hero{
     border: 1px solid black;
 }
 
-main section{
+main .adventure-awaits{
     border: 1px solid black;
 }
 
@@ -209,6 +209,12 @@ footer img{
     justify-self: start;
 }
 
+#fullname,
+#email{
+    width: 100%;
+    height: 30px;
+}
+
 .form-holder p{
     grid-row: 1/4;
 }
@@ -223,7 +229,13 @@ footer img{
     grid-column: 1/4;
 }
 
+#message{
+    grid-column: 1/4;
+    width: 100%;
+}
+
 .employees{
+    border: 1px solid black;
     grid-template-columns: repeat(3,1fr);
     display: grid;
 }
