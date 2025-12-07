@@ -43,19 +43,17 @@
                 <!-- radio checkbox -->
                 <div class="radio">
                     <p>Message Purpose</p>
-                    <label for="request"><input type="radio" name="request" id="request">
+                    <label for="inquiry"><input type="radio" id="inquiry" name="request" value="General Inquiry">
                         General
                         Inquiry</label>
-                    <label for="request"><input type="radio" name="request" id="request">
-                        Reservation
-                        Question</label>
-                    <label for="request"><input type="radio" name="request" id="request">
-                        Website
-                        Suggestion</label>
+                    <label for="reservation"><input type="radio" id="reservation" name="request"
+                            value="Reservation Question"> Reservation Question</label>
+                    <label for="suggestion"><input type="radio" id="suggestion" name="request"
+                            value="Website Suggestion"> Website Suggestion</label>
                 </div>
                 <div>
                     <!-- message from customer -->
-                    <label for="message" id="message">Message</label>
+                    <label for="message">Message</label>
                     <textarea name="message" id="message" placeholder="type here"></textarea>
                     <!-- subscription to mail -->
                     <label for="opt-in" id="opt-in"><input type="checkbox" name="opt-in" id="opt-in">
