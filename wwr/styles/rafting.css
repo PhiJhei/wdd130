@@ -225,7 +225,7 @@ footer img{
     height: 20px;
 }
 
-.form-holder #opt-in{
+.form-holder #opt-in-label{
     grid-column: 1/4;
 }
 
